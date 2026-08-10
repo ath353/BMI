@@ -1,25 +1,19 @@
-# 🏋️ Máy Tính BMI - Python
+# 🏋️ Máy Tính BMI - Python ✅
 
-Ứng dụng tính chỉ số BMI và phân tích tình trạng cơ thể, kèm tính toán % mỡ và đưa ra lời khuyên phù hợp.
+## 1. Tên dự án
+**Máy Tính BMI - Python**
 
----
+## 2. Ứng dụng dự án
+Đây là ứng dụng tính chỉ số BMI và phân tích tình trạng cơ thể, kèm tính toán % mỡ cơ thể và đưa ra lời khuyên phù hợp dựa trên kết quả.
 
-## ✨ Tính năng
-
+### Tính năng chính
 - 📊 Tính chỉ số BMI dựa trên cân nặng và chiều cao
-
 - 🎯 Phân loại BMI theo chuẩn WHO (Thiếu cân / Bình thường / Thừa cân / Béo phì)
-
 - 💪 Tính tỷ lệ % mỡ cơ thể theo giới tính và tuổi
-
 - 📏 Tính cân nặng lý tưởng dựa trên chiều cao
-
 - 💡 Đưa ra lời khuyên phù hợp với từng tình trạng
 
----
-
-## 🎬 Demo
-
+### 🎬 Demo
 ```
 ========================================
           MÁY TÍNH BMI 🏋️
@@ -52,21 +46,7 @@ Cân nặng lý tưởng: 53.5 - 71.8 kg
 ⚠️  Lưu ý: Kết quả chỉ mang tính tham khảo.
 ```
 
----
-
-## 🛠️ Kiến thức áp dụng
-
-- `input()` + ép kiểu `float()`, `int()` - nhận dữ liệu từ người dùng
-
-- Toán tử số học - tính BMI, % mỡ, cân nặng lý tưởng
-
-- F-string + format số - hiển thị kết quả đẹp
-
-- Ternary expression - phân loại BMI và % mỡ
-
----
-
-## 📐 Công thức sử dụng
+### 📐 Công thức sử dụng
 
 **BMI:**
 ```
@@ -88,19 +68,30 @@ BMI = cân nặng (kg) / chiều cao² (m)
 | 25.0 - 29.9 | Thừa cân |
 | ≥ 30.0 | Béo phì |
 
----
+## 3. Công nghệ
+- **Ngôn ngữ:** Python 3.x
+- **Giao diện:** Command Line Interface (CLI)
+- **Kiến thức áp dụng:**
+  - `input()` + ép kiểu `float()`, `int()` — nhận dữ liệu từ người dùng
+  - Toán tử số học — tính BMI, % mỡ, cân nặng lý tưởng
+  - F-string + format số — hiển thị kết quả đẹp
+  - Ternary expression — phân loại BMI và % mỡ
 
-## ⚠️ Lưu ý
+## 4. Hướng dẫn sử dụng
 
-Kết quả chỉ mang tính **tham khảo**. Vui lòng tham khảo ý kiến bác sĩ để có đánh giá chính xác.
+### Yêu cầu
+- Đã cài đặt **Python 3.x** trên máy
 
----
+### Các bước chạy chương trình
+1. Mở terminal tại thư mục chứa project
+2. Chạy lệnh:
+   ```bash
+   python main.py
+   ```
+3. Nhập thông tin theo yêu cầu: tên, cân nặng (kg), chiều cao (m), tuổi, giới tính
+4. Xem kết quả BMI, % mỡ cơ thể, cân nặng lý tưởng và lời khuyên
 
-## 👨‍💻 Tác giả
+> ⚠️ **Lưu ý:** Kết quả chỉ mang tính **tham khảo**. Vui lòng tham khảo ý kiến bác sĩ để có đánh giá chính xác.
 
-**[HTA]**
-
-- GitHub:  https://github.com/ath353
-
-
-
+## 5. Tác giả
+- ath353
